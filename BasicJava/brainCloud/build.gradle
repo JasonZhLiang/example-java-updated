@@ -8,7 +8,7 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName "2.22"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -58,10 +58,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.json:json:20171018'
 
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
 
     // Set this dependency to use JUnit 4 rules
-    androidTestImplementation 'com.android.support.test:rules:1.0.1'
+    androidTestImplementation 'androidx.test:rules:1.1.1'
 
     // Set this dependency to build and run Espresso tests
     //androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.1'

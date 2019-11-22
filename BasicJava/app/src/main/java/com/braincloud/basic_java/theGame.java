@@ -1,7 +1,6 @@
 package com.braincloud.basic_java;
 
-import android.os.CountDownTimer;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Map;
 import java.util.HashMap;

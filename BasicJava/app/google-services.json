@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "638303068597-fe9hkbfuip0j7n6umg6p22k47b8pdthg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.braincloud.basic_java",
+            "certificate_hash": "b76313e310de3353ffc6f8fc99fa6bdef8b9b071"
+          }
+        },
+        {
           "client_id": "638303068597-fm8l3na4aoa54iqkqlk2hdp20krbonuc.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -25,15 +33,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638303068597-lat7b1t91fk5ivcm9qi7elsq20k9a1fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
